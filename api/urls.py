@@ -1,6 +1,6 @@
-from django.urls import paths
+from django.urls import path
 from . import views
 
-urlpattern = [
+urlpatterns = [
        path('', views.getRoutes, name = "routes"),
 ]
